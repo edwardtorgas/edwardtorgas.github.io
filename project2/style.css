@@ -1,6 +1,5 @@
 * {
-    font-family: fantasy;
-    font-style: oblique;
+    font-family: Georgia;
 }
 .navBar {
     display: flex;
@@ -21,10 +20,63 @@
     text-decoration: none;
     color: black;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .pageTitle {
-    font-size: 24px;
-    font-weight: 300;
-    letter-spacing: 3px;
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.subheadText {
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.mainBody {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.subtitle {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.scrollText {
+    overflow: scroll;
+}
+
+.smallBlock {
+    margin-left: 250px;
+    width: 400px;
+    height: 175px;
+    line-height: 2;
+    
+}
+
+.columnsContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.textAndImage {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    line-height: 3;
+}
+
+.textAndImage img {
+    width: 200px;
+    margin: auto
 }
