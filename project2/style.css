@@ -42,10 +42,15 @@
 .subtitle {
     text-decoration: underline;
     text-align: center;
+    font-size: 32px;
 }
 
 .centerText {
     text-align: center;
+}
+
+.italicText {
+    font-style: italic;
 }
 
 .scrollText {
@@ -53,7 +58,7 @@
 }
 
 .smallBlock {
-    margin-left: 250px;
+    margin: auto;
     width: 400px;
     height: 175px;
     line-height: 2;
@@ -64,7 +69,14 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    margin-top: 50px;
     margin-bottom: 200px;
+}
+
+.columnsContainer img {
+    width: 200px;
+    max-height: 200px;
+    margin: auto;
 }
 
 .textAndImage {
