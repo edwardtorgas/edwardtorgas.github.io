@@ -1,0 +1,17 @@
+.navBar {
+    display: flex;
+    background: deepskyblue;
+    border: 2px solid blue;
+    padding: 10px 20px; 
+    width: match-parent;
+    border-radius: 10px;
+}
+
+.navButton {
+    background: #a1a1a1;
+    color: aliceblue;
+    border-radius: 8px;
+    margin: auto;
+    font-size: 16px;
+}
+
