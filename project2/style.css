@@ -1,3 +1,7 @@
+* {
+    font-family: fantasy;
+    font-style: oblique;
+}
 .navBar {
     display: flex;
     background: deepskyblue;
@@ -9,9 +13,18 @@
 
 .navButton {
     background: #a1a1a1;
-    color: aliceblue;
     border-radius: 8px;
     margin: auto;
     font-size: 16px;
 }
+.navButton a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
 
+.pageTitle {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
