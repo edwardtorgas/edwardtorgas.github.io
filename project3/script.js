@@ -21,7 +21,7 @@ function task3() {
     if (x > y) {
         document.getElementById('task3-text').innerHTML = 'bananas';
         document.getElementById('task3-text').style = 'color:yellow';
-    } else if (y > x) {
+    } else if (x < y) {
         document.getElementById('task3-text').innerHTML = 'porcupine';
         document.getElementById('task3-text').style = 'color:brown';
     } else if (x < 0 && x == y) {
@@ -35,18 +35,18 @@ function task3() {
 
 function task4() {
     'use strict';
-    const input = document.getElementById('task1').value;
-    document.getElementById('task1-text').innerHTML = 3*Math.pow(parseInt(input),2)+13;
+    const input = document.getElementById('task4').value.replace(/\D/g,'');
+    if (input.length > 11 || input.length < 10 || (input.length == 11 && input.charAt(0) != 1)) {
+        document.getElementById('task4-text').innerHTML = 'invalid';
+        document.getElementById('task4-text').style = 'color:red';
+    } else {
+        document.getElementById('task4-text').innerHTML = 'valid';
+        document.getElementById('task4-text').style = 'color:green';
+    }
 }
 
 function task5() {
     'use strict';
-    const input = document.getElementById('task1').value;
-    document.getElementById('task1-text').innerHTML = 3*Math.pow(parseInt(input),2)+13;
-}
-
-function task6() {
-    'use strict';
-    const input = document.getElementById('task1').value;
-    document.getElementById('task1-text').innerHTML = 3*Math.pow(parseInt(input),2)+13;
+    const input = document.getElementById('task5').value;
+    document.getElementById('task5-text').innerHTML = input.split(', ')[2];
 }
